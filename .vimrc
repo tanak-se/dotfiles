@@ -141,7 +141,17 @@ NeoBundleFetch 'Shougo/neobundle.vim'
  
 " NERDTreeを設定
 NeoBundle 'scrooloose/nerdtree'
- 
+
+" インデントガイド
+NeoBundle 'nathanaelkane/vim-indent-guides'
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'tagbar', 'unite']
+
+" 行末の半角スペースを可視化
+NeoBundle 'bronson/vim-trailing-whitespace'
+
 call neobundle#end()
  
 " Required:
@@ -157,3 +167,4 @@ NeoBundleCheck
 
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
+set clipboard=unnamed

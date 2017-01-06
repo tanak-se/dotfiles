@@ -1,2 +1,4 @@
 neobundle.vim
 nerdtree
+vim-indent-guides
+vim-trailing-whitespace
