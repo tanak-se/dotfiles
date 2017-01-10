@@ -153,11 +153,10 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'tagbar', 'unite']
 NeoBundle 'bronson/vim-trailing-whitespace'
 
 " Markdown
-" NeoBundle 'plasticboy/vim-markdown'
-" NeoBundle 'kannokanno/previm', '46-support-latest-open-browser'
-" NeoBundle 'tyru/open-browser.vim'
-" au BufRead,BufNewFile *.md set filetype=markdown
-" let g:previm_open_cmd = 'open -a Firefox'
+NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'kannokanno/previm', '46-support-latest-open-browser'
+NeoBundle 'tyru/open-browser.vim'
+au BufRead,BufNewFile *.md set filetype=markdown
 
 call neobundle#end()
  
