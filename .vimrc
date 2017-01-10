@@ -158,6 +158,16 @@ NeoBundle 'kannokanno/previm', '46-support-latest-open-browser'
 NeoBundle 'tyru/open-browser.vim'
 au BufRead,BufNewFile *.md set filetype=markdown
 
+" python
+NeoBundle 'davidhalter/jedi-vim'
+
+
+
+
+
+
+
+
 call neobundle#end()
  
 " Required:
