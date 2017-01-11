@@ -161,11 +161,8 @@ au BufRead,BufNewFile *.md set filetype=markdown
 " python
 NeoBundle 'davidhalter/jedi-vim'
 
-" unite
-NeoBundle 'Shougo/unite.vim'
 
-" ヘルプ日本語化
-NeoBundle 'vim-jp/vimdoc-ja'
+
 
 
 
