@@ -142,7 +142,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " NERDTreeを設定
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'jistr/vim-nerdtree-tabs'
-nnoremap <C-w> <C-w>w
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1  "Iキー
 let g:nerdtree_tabs_open_on_console_startup=1
