@@ -102,7 +102,7 @@ set background=dark
 set tabstop=4
 set hidden
 set laststatus=2
-set cursorline
+set nocursorline
 set nowrap
 set tags=~/.tags
 set ignorecase
